@@ -25,31 +25,29 @@ body {
    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
    
  }
- .operators div {
+ .operators div,.numbers div,div.equal {
    display: inline-block;
    border: 1px solid #bbb;
    border-radius: 1px;
    width:80px;
    text-align: center;
+   padding:10px;
+   margin: 10px 4px 10px;
+   cursor: pointer;
+   background-color: #f9f9f9;
+   transition: 
+      border-color .2s ease-in-out,
+      background-color .2s,
+      box-shadow .2s;
   }
-  .operators div:hover{
-    
+  .operators div:hover,.numbers div:hover,div.equal:hover{
+    background-color: #ddd;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
   }
-  .leftPanel{
-    
+  .leftPanel ,.numbers div{
+    display: inline-block;
   }
-  .numbers div{
-    
-  }
-  .numbers div:hover{
-    
-  }
-  div.equal {
-    
-  }
-  div.equal:hover{
-    
-  }
-  div.equal:active{
-    
+   div.equal:active{
+    font-weight: bold;
   }
