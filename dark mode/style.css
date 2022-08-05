@@ -5,10 +5,48 @@ body {
   align-items: center;
   justify-content: center;
   transition: .4s;
+ 
 }
-dark-bg {
-  background-color: #090211;
+.dark-bg {
+  background-color: #012F55;
 }
-.dark-checbox {
-  border-color: #352f47;
+.dark-checkbox {
+  border-color: whitesmoke;
+}
+section input {
+  position: relative;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 130px;
+  height: 55px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  border: 3px solid red;
+  cursor: pointer;
+  overflow: hidden;
+}
+input::after , input::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  width: 45px;
+  height: 45px ;
+  border-radius: 50%;
+  transform: translate(0);
+  transition: .4s;
+}
+input::after {
+  left: 2px ;
+  background: grey;
+}
+input::before {
+  right: 2px;
+  background: skyblue;
+  transform: translateY(-200px);
+}
+input:checked::after{
+  transform: translateY(100px)
+}
+input:checked::before{
+  transform: translateY(0);
 }
