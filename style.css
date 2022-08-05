@@ -31,5 +31,25 @@ body {
    border-radius: 1px;
    width:80px;
    text-align: center;
-   
- }
+  }
+  .operators div:hover{
+    
+  }
+  .leftPanel{
+    
+  }
+  .numbers div{
+    
+  }
+  .numbers div:hover{
+    
+  }
+  div.equal {
+    
+  }
+  div.equal:hover{
+    
+  }
+  div.equal:active{
+    
+  }
