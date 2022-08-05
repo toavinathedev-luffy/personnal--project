@@ -1,4 +1,4 @@
-/*"use strict";
+  /*"use strict";
 console.log("hello world");
 var input=document.getElementById("input"), 
 number =document.querySelectorAll(".number div"), 

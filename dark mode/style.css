@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .4s;
+}
+dark-bg {
+  background-color: #090211;
+}
+.dark-checbox {
+  border-color: #352f47;
+}
