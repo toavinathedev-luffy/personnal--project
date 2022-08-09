@@ -5,10 +5,11 @@ body {
   align-items: center;
   justify-content: center;
   transition: .4s;
+  background-color: lightcyan;
  
 }
 .dark-bg {
-  background-color: #012F55;
+  background-color: dimgrey;
 }
 .dark-checkbox {
   border-color: whitesmoke;
