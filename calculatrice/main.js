@@ -6,3 +6,4 @@ operator =document.querySelectorAll(".operator div"),
 result =document.getElementById("result"),
 clear =document.getElementById("clear"),
 resultDisplayed=false;
+getElementById("luffy");
